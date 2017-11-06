@@ -1,7 +1,41 @@
 {
   "name": "node-red-contrib-wordpos",
   "version": "0.0.1",
-  "description": "node-red wrapper for the npm module wordpos. It adds new feat$
+  "description": "This package is written to be used in Node-Red framework. It uses npm package https://github.com/moos/wordpos (It uses WordNet database ) for extracting information in js part.
+
+It takes msg.payload and msg.endpoint as parameters and outputs related information. The resulting message can be found at msg.result
+
+Available endpoints are presented below:
+
+getPOS
+
+getNouns
+
+getVerbs
+
+getAdjectives
+
+getAdverbs
+
+isNoun
+
+isVerb
+
+isAdjective
+
+isAdverb
+
+lookupSynonyms
+
+lookup
+
+lookupNoun
+
+lookupVerb
+
+lookupAdjective
+
+lookupAdverb",
   "node-red":{
         "nodes": {
                 "contrib-wordpos":"contrib-wordpos.js"
