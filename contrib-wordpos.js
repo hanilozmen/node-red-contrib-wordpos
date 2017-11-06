@@ -12,7 +12,7 @@ module.exports = function(RED) {
                 endpoint = msg.endpoint;
             }
             if(n.endpoint !== null || n.endpoint !== "") {
-                endpoint = msg.endpoint;
+                endpoint = n.endpoint;
             }
             
             
