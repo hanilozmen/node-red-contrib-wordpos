@@ -88,7 +88,7 @@ module.exports = function(RED) {
                  });
             }else if(endpoint === 'lookupSynonyms' ) {
                 wordpos.lookup(msg.payload, function (result) {
-                    var resultArray;
+                    var resultArray = [];
                     if(result !== null) {
                         for(i=0; i< result.length; i++) {
                             for(k = 0; k < result[i].synonyms.length; k++) {
