@@ -2,7 +2,7 @@ node-red-contrib-wordpos
 ===================
 
 **Installation**
-
+DANGER: NOT READY YET. PLEASE WAIT
 npm install --save node-red-contrib-wordpos
 
 **Usage**
