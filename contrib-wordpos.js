@@ -91,9 +91,9 @@ module.exports = function(RED) {
                     var resultArray;
                     if(result !== null) {
                         for(i=0; i< result.length; i++) {
-                            for(k = 0; k < result.synonyms.length; k++) {
-                                if(result.synonyms[k] !== msg.payload) {
-                                    resultArray.push(result.synonyms[k]);
+                            for(k = 0; k < result[i].synonyms.length; k++) {
+                                if(result[i].synonyms[k] !== msg.payload) {
+                                    resultArray.push(result[i].synonyms[k]);
                                 }
                             }
                         }
