@@ -13,10 +13,10 @@
 </script>
 
 <script type="text/x-red" data-help-name="contrib-wordpos">
-    <p>Analyses <code>msg.payload</code> and extracts information based on <code>msg.endpoint</code></p>
+    <p>Analyses <code>msg.payload</code> (must be string) and extracts information based on <code>msg.endpoint</code> (must be string). You can set msg.endpoint either from a function or from ui. (ui overrides msg.endpoint)</p>
     <p>The resulting message can be found at <code>msg.result</code> </p>
-    <p> Supported endpoints: getPOS,getNouns,getVerbs,getAdjectives,getAdverbs,isNoun,isVerb,isAdjective,isAdverb</p>
-    <p> Supported advanced endpoints: lookupSynonyms, lookup,lookupNoun,lookupVerb,lookupAdjective,lookupAdverb</p>
+    <p> Supported endpoints: getPOS, getNouns, getVerbs, getAdjectives, getAdverbs, isNoun, isVerb, isAdjective, isAdverb</p>
+    <p> lookupSynonyms, lookup, lookupNoun, lookupVerb, lookupAdjective, lookupAdverb</p>
 </script>
 
 <script type="text/javascript">
