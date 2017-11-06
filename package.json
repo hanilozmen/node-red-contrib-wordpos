@@ -1,25 +1,25 @@
 {
   "name": "node-red-contrib-wordpos",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "This package is written to be used in Node-Red framework.It uses npm package https://github.com/moos/wordpos which uses WordNet database for extracting information in js part.It takes msg.payload and msg.endpoint as parameters and outputs related information. The resulting message can be found at msg.result. For more info visit github link",
-  "node-red":{
-        "nodes": {
-                "contrib-wordpos":"contrib-wordpos.js"
-        }
+  "node-red": {
+    "nodes": {
+      "contrib-wordpos": "contrib-wordpos.js"
+    }
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/hanilozmen/node-red-contrib-wordpos.git"
   },
-  "dependencies"  : {
-        "wordpos"   : "0.1.*"
+  "dependencies": {
+    "wordpos": "0.1.*"
   },
   "keywords": [
-    "wordpos","node-red","contrib-wordpos"
+    "wordpos",
+    "node-red",
+    "contrib-wordpos"
   ],
   "author": "hanilozmen",
   "license": " MIT",
   "homepage": "https://github.com/hanilozmen/node-red-contrib-wordpos"
-
 }
-
