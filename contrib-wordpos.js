@@ -90,8 +90,8 @@ module.exports = function(RED) {
                 wordpos.lookup(msg.payload, function (result) {
                     var resultArray = [];
                     if(result !== null) {
-                        for(i=0; i< result.length; i++) {
-                            for(k = 0; k < result[i].synonyms.length; k++) {
+                        for(var i=0; i< result.length; i++) {
+                            for(var k = 0; k < result[i].synonyms.length; k++) {
                                 if(result[i].synonyms[k] !== msg.payload) {
                                     resultArray.push(result[i].synonyms[k]);
                                 }
