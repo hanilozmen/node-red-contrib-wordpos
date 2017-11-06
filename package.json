@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-wordpos",
+  "version": "0.0.1",
+  "description": "node-red wrapper for the npm module wordpos. It adds new feat$
+  "node-red":{
+        "nodes": {
+                "contrib-wordpos":"contrib-wordpos.js"
+        }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanilozmen/node-red-contrib-wordpos.git"
+  },
+  "dependencies"  : {
+        "wordpos"   : "0.1.*"
+  },
+  "keywords": [
+    "wordpos","node-red","contrib-wordpos"
+  ],
+  "author": "hanilozmen",
+  "license": " MIT",
+  "homepage": "https://github.com/hanilozmen/node-red-contrib-wordpos"
+
+}
+
